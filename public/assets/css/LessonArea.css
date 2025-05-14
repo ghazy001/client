@@ -1,0 +1,148 @@
+.lesson__area {
+    padding-bottom: 120px;
+  }
+  
+  .lesson__content {
+    padding: 20px;
+    background: #fff;
+    border-right: 1px solid #e0e0e0;
+    height: 100%;
+  }
+  
+  .lesson__content .title {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .lesson__video-wrap {
+    padding: 20px;
+    background: #f9f9f9;
+  }
+  
+  .lesson__video-wrap-top {
+    margin-bottom: 20px;
+  }
+  
+  .lesson__video-wrap-top-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .lesson__video-wrap-top-left span {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .lesson__summary {
+    margin-top: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .lesson__summary h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .lesson__summary .summary-text {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .lesson__summary .summary-error {
+    font-size: 1rem;
+    color: #d32f2f;
+    font-style: italic;
+    line-height: 1.6;
+  }
+  
+  .lesson__summary-actions {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .lesson__summary-actions .action-button {
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background 0.2s;
+  }
+  
+  .lesson__summary-actions .action-button:hover {
+    background: #0056b3;
+  }
+  
+  .lesson__summary-actions .action-button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .manual-summary-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .manual-summary-input .summary-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    resize: vertical;
+  }
+  
+  .lesson__next-prev-button {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .lesson__next-prev-button button {
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.9rem;
+  }
+  
+  .lesson__next-prev-button button:hover {
+    background: #0056b3;
+  }
+  
+  .lesson__next-prev-button button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .loading {
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .error {
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #d32f2f;
+  }
